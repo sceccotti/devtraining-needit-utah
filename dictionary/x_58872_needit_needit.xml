@@ -8,6 +8,7 @@
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.company.getDisplayValue();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Company_Text" max_length="40" name="company_text" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Full_Name" max_length="1000" name="full_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
